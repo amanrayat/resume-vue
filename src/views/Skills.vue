@@ -1,6 +1,6 @@
 <template>
     <div class="mt-5" id="Skills">
-        <v-container mx-5 px-5 my-1 py-0 flex fill-height>
+        <v-container my-1 py-0 flex fill-height>
             <v-layout row wrap mb-5>
                 <v-flex xs12  class="intro">
                     <p class="text-xs-center">Skills</p>
@@ -14,8 +14,7 @@
                             label="Skills By Category"
                     />
                 </v-flex>
-                <v-flex xs1 sm3 />
-                <v-flex xs12>
+                <v-flex xs12 offset-xs1>
                     <v-layout row wrap>
                         <v-flex v-for="(n, index) in skills" :key="index" xs12 sm12 md6 lg4 xl3>
                             <v-container  elevation="0" height="300"
