@@ -2,7 +2,7 @@
   <div id="app" style="height: 100%">
     <v-container py-0 px-0 mx-0 flex fill-height>
       <v-flex fill-height hidden-sm-and-down>
-        <my-navbar />
+        <my-navbar/>
       </v-flex>
       <v-flex fill-height>
         <v-app>

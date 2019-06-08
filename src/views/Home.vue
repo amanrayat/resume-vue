@@ -1,7 +1,7 @@
 <template>
     <div id="Home" class="parrellax">
         <my-intro />
-        <my-skills />
+        <my-skills  data-aos="fade-up" data-aos-anchor="#Skills" />
         <my-education />
         <my-projects />
         <my-experience />
