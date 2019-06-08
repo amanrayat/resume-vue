@@ -149,7 +149,7 @@
                         </v-flex>
                         <v-flex xs12 sm12 md6 lg4 xl3>
                             <v-container  elevation="0" height="300"
-                                          max-width="460">
+                                          max-width="260">
                                 <v-layout row wrap>
                                     <v-flex xs12>
                                         <v-img
