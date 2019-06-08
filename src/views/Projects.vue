@@ -160,7 +160,7 @@
                                     <v-flex>
                                         <v-card-title primary-title text-color>
                                             <div>
-                                                <div class="headline">Plagiarism Detector</div>
+                                                <div class="headline">Plagiarism Detection</div>
                                                 <span class="grey--text">Source code plagiarism detections application.</span>
                                             </div>
                                         </v-card-title>
