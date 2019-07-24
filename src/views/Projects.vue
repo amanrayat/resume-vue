@@ -7,7 +7,9 @@
                 </v-flex>
                 <v-flex xs12 fill-height offset-xs1>
                     <v-layout row wrap>
-                        <v-flex xs12 sm12 md6 lg4 xl3>
+                        <v-flex  data-aos="fade-right"
+                                 data-aos-offset="300"
+                                 data-aos-easing="ease-in-sin" xs12 sm12 md6 lg4 xl3>
                             <v-container  elevation="0" height="300"
                                           max-width="460">
                                 <v-layout row wrap>
@@ -53,7 +55,9 @@
                                 </v-layout>
                             </v-container>
                         </v-flex>
-                        <v-flex xs12 sm12 md6 lg4 xl3>
+                        <v-flex xs12 sm12 md6 lg4 xl3  data-aos="fade-down"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sin" >
                             <v-container  elevation="0" height="300"
                                           max-width="460">
                                 <v-layout row wrap>
@@ -100,7 +104,9 @@
                                 </v-layout>
                             </v-container>
                         </v-flex>
-                        <v-flex xs12 sm12 md6 lg4 xl3>
+                        <v-flex xs12 sm12 md6 lg4 xl3  data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sin" >
                             <v-container  elevation="0" height="300"
                                           max-width="460">
                                 <v-layout row wrap>
@@ -147,7 +153,9 @@
                                 </v-layout>
                             </v-container>
                         </v-flex>
-                        <v-flex xs12 sm12 md6 lg4 xl3>
+                        <v-flex xs12 sm12 md6 lg4 xl3  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sin" >
                             <v-container  elevation="0" height="300"
                                           max-width="460">
                                 <v-layout row wrap>

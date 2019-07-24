@@ -1,5 +1,7 @@
 <template>
-    <v-container data-aos="fade-up" py-5 id="Contact">
+    <v-container data-aos="fade-up"
+                 data-aos-offset="300"
+                 data-aos-easing="ease-in-sin" py-5 id="Contact">
         <v-layout row wrap>
             <v-flex xs12 sm6>
                 <v-flex xs11 my-5 text-xs-center>

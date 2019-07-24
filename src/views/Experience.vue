@@ -11,6 +11,9 @@
                                 v-for="(n,index) in experience"
                                 color="white"
                                 :key="index"
+                                data-aos="flip-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sin"
                                 large>
                             <v-avatar slot="icon">
                                 <img :src="n.src">

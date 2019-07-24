@@ -1,14 +1,16 @@
 <template>
     <div class="my-5" id="Education">
         <template class="mx-5 px-5 flex fill-height">
-            <transition name="component-fade" mode="out-in">
+            <transition name="component-fade" mode="flip-left">
                 <v-layout row wrap>
                     <v-flex xs12  class="intro" mb-5>
                         <p class="text-xs-center">Education</p>
                     </v-flex>
                     <v-flex xs11 fill-height offset-xs1>
                         <v-container>
-                            <v-layout class="som" row wrap>
+                            <v-layout class="som" row wrap  data-aos="flip-right"
+                                      data-aos-offset="300"
+                                      data-aos-easing="ease-in-sin">
                                 <v-flex xs12 sm3 hidden-sm-and-down>
                                     <v-avatar
                                             class="mt-5"
@@ -20,7 +22,7 @@
                                     </v-avatar>
                                 </v-flex>
                                 <v-flex  xs12 sm6>
-                                    <v-card class="elevation-0">
+                                    <v-card class="elevation-0" >
                                         <v-card-title primary-title>
                                             <div>
                                                 <h3 class="mb-2">Northeastern University. Boston MA</h3>
@@ -51,7 +53,9 @@
                                     </v-progress-circular>
                                 </v-flex>
                             </v-layout>
-                            <v-layout class="som" row wrap>
+                            <v-layout class="som" row wrap  data-aos="flip-right"
+                                      data-aos-offset="300"
+                                      data-aos-easing="ease-in-sin">
                                 <v-flex xs12 sm3 hidden-sm-and-down>
                                     <v-avatar
                                             class="mt-5"

@@ -10,7 +10,7 @@
                     <v-select
                             v-model="category"
                             :items="items"
-                            color="rgb(8, 253, 216)"
+                            color="rgb(150, 114, 255)"
                             label="Skills By Category"
                     />
                 </v-flex>
@@ -18,6 +18,9 @@
                     <v-layout row wrap>
                         <v-flex v-for="(n, index) in skills" :key="index" xs12 sm12 md6 lg4 xl3>
                             <v-container  elevation="0" height="300"
+                                          data-aos="fade-right"
+                                          data-aos-offset="300"
+                                          data-aos-easing="ease-in-sin"
                                           max-width="460">
                                 <v-layout>
                                     <v-flex xs6>
