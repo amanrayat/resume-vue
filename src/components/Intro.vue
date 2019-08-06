@@ -9,6 +9,9 @@
                     <v-btn outline color="green">
                         <a href="#Contact"> Contact Me</a>
                     </v-btn>
+                    <v-btn outline color="green">
+                        <a href="https://staticwebsiteaman.s3.amazonaws.com/resume_aug_new.pdf">Resume</a>
+                    </v-btn>
                 </div>
             </v-flex>
         </v-layout>
